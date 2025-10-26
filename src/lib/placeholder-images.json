@@ -1,0 +1,64 @@
+{
+  "placeholderImages": [
+    {
+      "id": "1",
+      "description": "Abstract image representing time and routines.",
+      "imageUrl": "https://images.unsplash.com/photo-1648385132744-b52531146e5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMGNsb2NrfGVufDB8fHx8MTc2MTQyNTE1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract clock"
+    },
+    {
+      "id": "2",
+      "description": "Image of books and text to represent language articles.",
+      "imageUrl": "https://images.unsplash.com/photo-1721552008286-0b839c033140?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib29rcyUyMGxpYnJhcnl8ZW58MHx8fHwxNzYxNDM1Nzg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "books library"
+    },
+    {
+      "id": "3",
+      "description": "A calendar representing prepositions of time.",
+      "imageUrl": "https://images.unsplash.com/photo-1642360912445-61d71dd98400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYWxlbmRhciUyMHNjaGVkdWxlfGVufDB8fHx8MTc2MTM5MDY3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calendar schedule"
+    },
+    {
+      "id": "4",
+      "description": "Image of a branching path representing choices or conditions.",
+      "imageUrl": "https://images.unsplash.com/photo-1555667316-74c72ee7757d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwYXRoJTIwY2hvaWNlfGVufDB8fHx8MTc2MTQ5MDQyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "path choice"
+    },
+    {
+      "id": "5",
+      "description": "Diverse group of people pointing to themselves, representing pronouns.",
+      "imageUrl": "https://images.unsplash.com/photo-1719669765942-1b975fc8d657?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVvcGxlJTIwZGl2ZXJzaXR5fGVufDB8fHx8MTc2MTQ5MDcwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "people diversity"
+    },
+    {
+      "id": "6",
+      "description": "A person actively doing something, like running or painting, for present continuous.",
+      "imageUrl": "https://images.unsplash.com/photo-1603455778956-d71832eafa4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBydW5uaW5nfGVufDB8fHx8MTc2MTM5NzkyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person running"
+    },
+    {
+      "id": "7",
+      "description": "An old photograph or a historical object to represent the past simple.",
+      "imageUrl": "https://images.unsplash.com/photo-1528594498426-ea65fdafcbf4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvbGQlMjBjYW1lcmF8ZW58MHx8fHwxNzYxNDkwNzA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "old camera"
+    },
+    {
+      "id": "8",
+      "description": "A signpost pointing in two different directions for 'will' vs 'going to'.",
+      "imageUrl": "https://images.unsplash.com/photo-1625918125057-3edcfadd83ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzaWducG9zdCUyMGZ1dHVyZXxlbnwwfHx8fDE3NjE0OTA3MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "signpost future"
+    },
+    {
+      "id": "9",
+      "description": "A map with pins on it to represent prepositions of place.",
+      "imageUrl": "https://images.unsplash.com/photo-1731082154898-2e63df0f2a42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYXAlMjBsb2NhdGlvbnxlbnwwfHx8fDE3NjE0OTA3MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "map location"
+    },
+    {
+      "id": "10",
+      "description": "A toolbox or a set of gears to represent modal verbs as tools for language.",
+      "imageUrl": "https://images.unsplash.com/photo-1723988432637-b3621dfcfd39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxnZWFycyUyMHRvb2xzfGVufDB8fHx8MTc2MTQ5MDcwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gears tools"
+    }
+  ]
+}
