@@ -73,21 +73,25 @@ export function FlashcardDeck({ initialWords }: { initialWords: VocabularyItem[]
   }
   
   return (
-    <Carousel
-      opts={{
-        align: 'center',
-      }}
-      className="w-full max-w-sm md:max-w-md"
-    >
-      <CarouselContent>
-        {words.map((item, index) => (
-          <CarouselItem key={index}>
-            <Flashcard {...item} />
-          </CarouselItem>
-        ))}
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
+    <div className="w-full max-w-sm md:max-w-md mx-auto">
+      <Carousel
+        opts={{
+          align: 'center',
+        }}
+        className="w-full relative"
+      >
+        <CarouselContent>
+          {words.map((item, index) => (
+            <CarouselItem key={index}>
+              <Flashcard {...item} />
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <div className="flex justify-between w-full px-4 mt-4 md:px-0 md:absolute md:top-1/2 md:-translate-y-1/2 md:left-0 md:right-0 md:mt-0 md:justify-between md:pointer-events-none">
+          <CarouselPrevious className="relative left-0 md:-left-12 md:pointer-events-auto" />
+          <CarouselNext className="relative right-0 md:-right-12 md:pointer-events-auto" />
+        </div>
+      </Carousel>
+    </div>
   );
 }

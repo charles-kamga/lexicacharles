@@ -1,7 +1,14 @@
 .flashcard-container {
   perspective: 1000px;
   width: 100%;
-  height: 20rem; /* Adjust height as needed */
+  height: 16rem; /* Reduced height for better mobile experience */
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .flashcard-container {
+    height: 20rem; /* Original height for desktop */
+  }
 }
 
 .flashcard {
