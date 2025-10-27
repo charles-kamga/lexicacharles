@@ -48,7 +48,7 @@ export function MainNav() {
             />
             <circle cx="60" cy="45" r="10" fill="hsl(var(--accent))" />
           </svg>
-          <span className="text-xl font-bold font-headline">LexicaLearn</span>
+          <span className="text-xl font-bold font-headline">LexicaCharles</span>
         </Link>
       </SidebarHeader>
       <SidebarContent>

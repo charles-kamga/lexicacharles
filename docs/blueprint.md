@@ -1,4 +1,4 @@
-# **App Name**: LexicaLearn
+# **App Name**: LexicaCharles
 
 ## Core Features:
 

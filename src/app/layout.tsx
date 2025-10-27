@@ -6,7 +6,7 @@ import { MainNav } from '@/components/common/main-nav';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'LexicaLearn',
+  title: 'LexicaCharles',
   description: 'An engaging web application for learning English.',
 };
 

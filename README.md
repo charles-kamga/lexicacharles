@@ -1,6 +1,6 @@
-# LexicaLearn
+# LexicaCharles
 
-LexicaLearn est une application TypeScript destinée à faciliter l'apprentissage du vocabulaire et la mémorisation par des sessions interactives (flashcards, QCM, répétition espacée). Ce dépôt contient le code source principal du projet — frontend et/ou backend en TypeScript.
+LexicaCharles est une application TypeScript destinée à faciliter l'apprentissage du vocabulaire et la mémorisation par des sessions interactives (flashcards, QCM, répétition espacée). Ce dépôt contient le code source principal du projet — frontend et/ou backend en TypeScript.
 
 ---
 
@@ -30,11 +30,11 @@ LexicaLearn est une application TypeScript destinée à faciliter l'apprentissag
 
 1. Cloner le dépôt :
 
-   git clone https://github.com/charles-kamga/LexicaLearn.git
+   git clone https://github.com/charles-kamga/lexicalearncharles.git
 
 2. Se placer dans le dossier du projet :
 
-   cd LexicaLearn
+   cd lexicalearncharles
 
 3. Installer les dépendances :
 
