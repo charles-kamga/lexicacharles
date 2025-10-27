@@ -26,7 +26,7 @@ const stats = [
 ];
 
 const StatCard = ({ title, value, change, icon: Icon, changeType }: (typeof stats)[0]) => (
-  <Card>
+  <Card className="min-w-[200px] flex-1">
     <CardHeader className="flex flex-row items-center justify-between pb-2 space-y-0">
       <CardTitle className="text-sm font-medium">{title}</CardTitle>
       <Icon className="w-4 h-4 text-muted-foreground" />
@@ -45,13 +45,16 @@ const StatCard = ({ title, value, change, icon: Icon, changeType }: (typeof stat
   </Card>
 );
 
-
 export function DashboardStats() {
   return (
-    <div className="grid gap-4 md:grid-cols-3">
-      {stats.map((stat) => (
-        <StatCard key={stat.title} {...stat} />
-      ))}
+    <div className="w-full overflow-x-auto pb-2 -mx-1 px-1">
+      <div className="flex gap-3 sm:gap-4 w-max min-w-full">
+        {stats.map((stat) => (
+          <div key={stat.title} className="flex-none" style={{ width: 'calc(100vw - 2rem)' }}>
+            <StatCard {...stat} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
